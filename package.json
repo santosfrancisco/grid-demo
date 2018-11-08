@@ -21,5 +21,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "react-awesome-styled-grid": "^2.2.2",
+    "styled-components": "^4.0.3"
+  }
 }
