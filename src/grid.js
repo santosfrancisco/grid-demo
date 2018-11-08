@@ -1,8 +1,8 @@
 import React from 'react'
-import styled, { css } from 'styled-components'
+import styled, { css, withTheme } from 'styled-components'
 import { config } from 'react-awesome-styled-grid'
 
-export default styled(({ className, ...props }) => {
+const Grid = styled(({ className, ...props }) => {
   const createColumns = qty => {
     let columns = []
     for(let i = 0; i < qty; i++){
@@ -75,3 +75,5 @@ export default styled(({ className, ...props }) => {
     `}
   }
 `
+
+export default withTheme(Grid)
