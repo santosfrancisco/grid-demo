@@ -4,6 +4,50 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - [http://grid-demo.surge.sh/](http://grid-demo.surge.sh/)
 
+This is a demo project using the [react-awesome-styled-grid v3](https://github.com/santosfrancisco/react-awesome-styled-grid) with a custom configuration. The custom grid is below. See the [documentation](https://awesome-styled-grid.netlify.com/custom) for more info of usage.
+
+```js
+  const customConf = {
+    mediaQuery: 'only screen',
+    columns: {
+      xs: 4,
+      sm: 8,
+      md: 8,
+      lg: 12,
+      xl: 12
+    },
+    gutterWidth: {
+      xs: 1,
+      sm: 1,
+      md: 1.5,
+      lg: 1.5,
+      xl: 1.5
+    },
+    paddingWidth: {
+      xs: 1,
+      sm: 1,
+      md: 1.5,
+      lg: 1.5,
+      xl: 1.5
+    },
+    container: {
+      xs: 'full', // 'full' = max-width: 100%
+      sm: 'full', // 'full' = max-width: 100%
+      md: 'full', // 'full' = max-width: 100%
+      lg: 90, // max-width: 1440px
+      xl: 90 // max-width: 1440px
+    },
+    breakpoints: {
+      xs: 1,
+      sm: 48, // 768px
+      md: 64, // 1024px
+      lg: 90, // 1440px
+      xl: 120 // 1920px
+    }
+  }
+```
+
+
 ## Available Scripts
 
 In the project directory, you can run:
