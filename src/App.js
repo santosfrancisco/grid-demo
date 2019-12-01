@@ -60,13 +60,16 @@ class App extends Component {
             {this.state.grid && <Grid className='grid' />}
             <ScreenBadge />
             <Row>
-              <Col xs={2} sm={3} md={4} lg={4} xl={6}>
+              <Col xs={2} sm={3} md={4} lg={3} xl={6}>
                 <div className='col'>Oi, sou um elemento</div>
               </Col>
-              <Col xs={2} sm={5} md={4} lg={4} xl={6}>
+              <Col xs={2} sm={5} md={4} lg={3} xl={6}>
                 <div className='col'>Oi, sou um elemento</div>
               </Col>
               <Col xs={4} sm={5} md={4} lg={6} xl={6}>
+                <div className='col'>Oi, sou um elemento</div>
+              </Col>
+              <Col xs={4} sm={3} md={4} lg={12} xl={6}>
                 <div className='col'>Oi, sou um elemento</div>
               </Col>
             </Row>
@@ -94,12 +97,14 @@ export default styled(App)`
     padding-top: 20px;
     position: relative;
   }
+
   .col {
-    ${'' /* border: 1px solid black; */}
+    width: 100%;
     background-color: rgb(243, 4, 242, .3);
     height: 100px;
     margin-bottom: 10px;
   }
+  
   .menu {
     display: none;
     width: 224px;
