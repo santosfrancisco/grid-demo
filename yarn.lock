@@ -7107,9 +7107,9 @@ path-key@^2.0.0, path-key@^2.0.1:
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-to-regexp@0.1.7:
   version "0.1.7"
@@ -8143,7 +8143,7 @@ react-app-polyfill@^1.0.4:
     regenerator-runtime "0.13.3"
     whatwg-fetch "3.0.0"
 
-react-awesome-styled-grid@latest:
+react-awesome-styled-grid@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/react-awesome-styled-grid/-/react-awesome-styled-grid-3.0.0.tgz#ffe806f611d37fb688f09409c25291b11590c610"
   integrity sha512-V/OpveeqnHQcydj8h9xLX8IXHlk6s0VT7JUcnkxyhgduzYYeIHc2YNqHsr0vq7+gSzTKYFgR2YBKF/aTEq4Wrg==
